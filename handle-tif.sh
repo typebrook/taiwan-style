@@ -1,4 +1,3 @@
-main() {
-  cd ~
-}
-main
+#!/bin/bash
+
+cd ~
