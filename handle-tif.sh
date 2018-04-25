@@ -1,1 +1,4 @@
-cd ~
+main() {
+  cd ~
+}
+main
