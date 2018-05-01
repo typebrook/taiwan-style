@@ -15,3 +15,6 @@ for size in 100; do
     gdal_contour -i $size -a height $TIF $(basename $TIF .tif)-${size}m.shp
 done
 ```
+
+#### Read the meta data of shp file 
+``` ogrinfo *shp -al -geom=NO | head -20```
