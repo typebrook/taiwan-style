@@ -11,7 +11,7 @@ Mapbox map style for mountaineering in Taiwan
 ```
 #!/bin/sh
 TIF=./dem_20m-wgs84.tif
-for size in 100 ; do 
-    gdal_contour -i $size  -a height $TIF $(basename $TIF .tif)-${size}m.shp
+for size in 100; do 
+    gdal_contour -i $size -a height $TIF $(basename $TIF .tif)-${size}m.shp
 done
 ```
