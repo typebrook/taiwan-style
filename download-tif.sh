@@ -5,7 +5,7 @@ wget -O MOI-20mDEM.zip  http://data.moi.gov.tw/MoiOD/System/DownloadFile.aspx?DA
 
 # Extract tif file for Taiwan, why there is a .rar inside .zip? = =||
 unzip MOI-20mDEM.zip -d ./MOI-20mDEM
-unrar e MOI-20mDEM/*rar MOI-20mDEM/
+unrar e MOI-20mDEM/*rar* MOI-20mDEM/
 # Or use unar
 # unar MOI-20mDEM.zip -o ./MOI-20mDEM
 # unar MOI-20mDEM/*rar -o MOI-20mDEM/
